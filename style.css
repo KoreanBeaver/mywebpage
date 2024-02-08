@@ -1,0 +1,72 @@
+body {
+    background-color: #0c4a60;
+    color: #ef6c33;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    color: #ef6c33;
+    border-top: 1px solid #ef6c33;
+    border-bottom: 1px solid #ef6c33;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    letter-spacing: .3em;
+    margin-left: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ef6c33;
+    line-height: 3em;
+    margin:0%;
+}
+
+h1 {
+    text-align: center;
+    margin: 10;
+    margin-left: 170px;
+    padding: 20px;
+    letter-spacing: .1em;
+}
+
+h2 {
+    text-align: center;
+    margin : 0;
+    padding: 20px;
+    letter-spacing: .1em;
+}
+
+#intro {
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 5%;
+    Padding : 20px;    
+    letter-spacing: .1em;
+}
+
+#skills ul {
+    display: inline;
+    letter-spacing: .2em;
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+
+#skillImage {
+    display: flex;
+    justify-content: center;
+}
+
+#gitImage {
+    position: static;
+    float: right;
+    width: 200px;
+}
