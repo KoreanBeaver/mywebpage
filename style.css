@@ -1,6 +1,6 @@
 body {
-    background-color: #0c4a60;
-    color: #ef6c33;
+    background-color: #132043;
+    color: #FDF0F0;
 }
 
 nav {
@@ -8,11 +8,22 @@ nav {
     margin-bottom: 20px;
 }
 
+nav a i {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: grey;
+}
+
+nav a {
+    text-decoration-line: none;
+}
+
 nav ul {
     list-style: none;
-    color: #ef6c33;
-    border-top: 1px solid #ef6c33;
-    border-bottom: 1px solid #ef6c33;
+    color: #FDF0F0;
+    border-top: 1px solid #FDF0F0;
+    border-bottom: 1px solid #FDF0F0;
     text-align: center;
 }
 
@@ -24,14 +35,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ef6c33;
+    color: #FDF0F0;
     line-height: 3em;
     margin:0%;
 }
 
 h1 {
     text-align: center;
-    margin: 10;
+    margin: 0;
     margin-left: 170px;
     padding: 20px;
     letter-spacing: .1em;
@@ -39,9 +50,26 @@ h1 {
 
 h2 {
     text-align: center;
-    margin : 0;
+    margin : 20;
     padding: 20px;
     letter-spacing: .1em;
+    border-bottom: #FDF0F0 solid;
+}
+
+h3 {
+    text-align: center;
+    margin: 20;
+    padding: 20px;
+    letter-spacing: .1em;
+    font-size: large;
+}
+
+h4 {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    letter-spacing: .1em;
+    font-size: medium;
 }
 
 #intro {
@@ -52,21 +80,51 @@ h2 {
     letter-spacing: .1em;
 }
 
-#skills ul {
-    display: inline;
-    letter-spacing: .2em;
+#skillImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#skillImage div {
+    width: 250px;
+    height: auto;
+    background-color: #1F4172;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin: 10px;
+}
+
+#skillImage div img {
+    width: 50px;
+    height: 50px;
     text-align: center;
-    font-size: 120%;
-    margin-bottom: 5%;
+    margin: 10px;
 }
 
 #skillImage {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #gitImage {
     position: static;
     float: right;
     width: 200px;
+}
+
+#pathFinder {
+    text-align: center;
+    font-size: 110%;
+    padding: 0;
+    margin: auto;
+    width: 500px;
+    height: 281px;
+    border: 3px solid rgb(255, 255, 255);
 }
