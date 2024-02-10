@@ -120,11 +120,26 @@ h4 {
 }
 
 #pathFinder {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+#pathFinder div {
+    width: 600px;
+    height: 350px;
+    background-color: #1F4172;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 10px;
+}
+
+#pathFinder div img {
+    border-radius: 0.25rem;
     text-align: center;
     font-size: 110%;
-    padding: 0;
+    padding: auto;
     margin: auto;
-    width: 500px;
-    height: 281px;
-    border: 3px solid rgb(255, 255, 255);
 }
