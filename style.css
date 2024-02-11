@@ -176,7 +176,7 @@ h4 {
     width: 300px;
     height: 30px;
 }
-#contactBox form input, textarea {
+#contactBox form #context, textarea {
     margin: 10px;
     padding: 10px;
     display: flex;
