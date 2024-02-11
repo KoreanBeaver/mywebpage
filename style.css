@@ -153,8 +153,6 @@ h4 {
 #contactBox div {
     width: 300px;
     height: 50px;
-    margin: 0;
-    padding: 0;
     display: flex;
     border-radius: 0.25rem;
     justify-content: center;
@@ -168,6 +166,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: auto;
+    padding: auto;
 }
 
 #contactBox form div input, textarea {
@@ -175,4 +175,15 @@ h4 {
     border-radius: 0.25rem;
     width: 300px;
     height: 30px;
+}
+#contactBox form input, textarea {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F4172;
+    border-radius: 0.25rem;
+    width: 300px;
+    height: 500px;
 }
