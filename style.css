@@ -187,3 +187,18 @@ h4 {
     width: 300px;
     height: 500px;
 }
+
+#sendbox button {
+    color: #FDF0F0;
+    letter-spacing: .1rem ;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 15px 32px;
+    background-color: #1F4172;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
