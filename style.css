@@ -202,3 +202,12 @@ h4 {
     text-decoration: none;
     cursor: pointer;
 }
+
+#contactLine {
+    letter-spacing: .1rem ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+    padding: auto;
+}
